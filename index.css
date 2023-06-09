@@ -1,0 +1,24 @@
+.container {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  float: left;
+  margin-right: 20px;
+}
+
+.item {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: move;
+}
+
+.item.dragged {
+  opacity: 0.5;
+}
+
+.success-message {
+  color: green;
+  margin-top: 10px;
+}
